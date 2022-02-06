@@ -1,0 +1,13 @@
+
+
+/*# sourceMappingURL=stories.css.map */
+#center{ 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: 1px;
+}
+#center a{ 
+    margin-left: 5px;
+}
