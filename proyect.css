@@ -46,6 +46,22 @@
 }
 
 
+#carouselExampleDark
+{
+    margin-top: 50px;
+}
+
+.form-floating p
+{
+    font-size: 30px;
+}
+
+.textarea 
+{
+    width: 150px;
+    height: 150px;
+}
+
 
 @media only screen and (min-width: 1080px) 
 {
@@ -54,6 +70,8 @@
        display: none !important;
     }
 }
+
+
 
 @media only screen and (min-width: 728px) 
 {
@@ -85,5 +103,16 @@
     {
        display: none !important;
     }
+    
   
 }
+
+@media only screen and (max-width: 360px) 
+{
+    .notification_letter
+    {
+        font-size: 14px;
+    }
+
+}
+
