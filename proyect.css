@@ -103,7 +103,22 @@
     {
        display: none !important;
     }
+    .centro
+    {
+        width: 95%;
+    }
     
+  
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+    .description 
+    {
+       display: none !important;
+    }
+  
   
 }
 
@@ -115,4 +130,5 @@
     }
 
 }
+
 
