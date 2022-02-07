@@ -1,0 +1,11 @@
+.nav {
+    padding-top: 250px;
+}
+.img{
+    border: none;
+    border-radius: 50%;
+}
+.banner {
+    position: relative;
+    margin:0px;
+}
