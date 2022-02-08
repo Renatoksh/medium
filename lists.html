@@ -150,17 +150,99 @@
 
                 <div class="mt-5"></div>
 
-                <h2>Your Lists</h2>
+                <div class="header d-flex justify-content-between">
+                    <h2>Your Lists</h2>
+                    <button type="button" class="btn btn-success rounded-pill me-5">New list</button>
+                </div>
+
+
                 <nav class="nav border-bottom border-1">
-                    <p><a class="nav-link active" aria-current="page" href="#">All</a></p>
-                    <p><a class="nav-link" href="#">Responses</a></p>
-                    <p><a class="nav-link" href="#">Responses</a></p>
+                    <p><a class="nav-link active text-dark" aria-current="page" href="#">All</a></p>
+                    <p class="fill-black "><a class="nav-link text-secondary" href="#">Saved</a></p>
+                    <p><a class="nav-link text-secondary" href="#">Highlights</a></p>
+                    <p><a class="nav-link text-secondary" href="#">Recently viewed</a></p>
                 </nav>
 
-                <div class="d-flex justify-content-between green">
-                    <div class="notification_letter"><small>You're all caught up.</small></div>
-                    <div><a class="nav-link $success notification_letter" href="#"><small>Your stats</small></a></div>
+                <div class="alert alert-success mt-5 bg-success banner " role="alert">
+                    <div class="d-flex justify-content-end"><button type="button" class="btn-close close"
+                            data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    <p class="fs-4 fw-bolder text-white">Create a list to easily <br> organize and share your stories</p>
+                    
+                    <div class="d-flex align-items-center">
+                        <button type="button" class="mb-5 btn btn-dark rounded-pill me-5 fw-bolder">Start a
+                            list</button>
+                        <div
+                            class="bg-white rounded-circle  d-flex justify-content-center align-items-center list_circle">
+                        </div>
+                        <div class="rounded-circle list_cicle_small d-flex justify-content-center align-items-center">
+                            <a href="#" class="d-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="25" height="25" fill="green" class="bi bi-bookmark-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z" />
+                                </svg></a>
+                        </div>
+                       </div>
                 </div>
+
+
+
+
+
+
+              <!--  <div class="alert alert-light border" role="alert">
+
+                    <span class="fs-4 fw-bolder black">Reading list</span>
+                    <div>
+                        <img class="brain d-flex justify-content-center" width="150px" src="img/brain.jpg" alt="brain">
+                        <div class="cuadro1 d-flex justify-content-end border" width="150px" height="150px">cuadro 1
+                        </div>
+                        <div class="cuadro2 d-flex border" width="150px" height="150px"></div>
+                    </div>
+                   
+                   
+
+                </div>
+-->
+
+                <div class="border-1 border border-dark d-flex">
+                    <div class="d-flex flex-column justify-content-between banner_left" >
+                        <p class="fs-4 fw-bolder black mb-5">Reading list</p>
+
+                        <div class="d-flex  align-items-center" >
+                            <button type="button" class="btn btn-grey rounded-pill me-2 pt-2 border">View list</button>
+                            <span class="bolder pe-3">1 story</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                        </svg>
+
+                        </div>
+
+                    </div>
+<div class="d-flex justify-content-end">
+                    <div >
+                        <a href="#"><img src="https://miro.medium.com/fit/c/208/208/1*DJ6U9FId17GqkYyaGByReA.png" alt="cerebro"></img></a>
+                    </div>
+
+                    <div>
+                        <a href="#"><img src="./img/circulos.jpg" alt="cerebro"></img></a>
+                    </div>
+                </div>
+
+                   
+                </div>
+
+
+
+
+
+
+
 
 
                 <!--TERMINA CONTENEDOR DE PAGINA HOME-->
@@ -187,47 +269,47 @@
                             d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z" />
                     </svg>
                     <!--anañe Gaby-->
-                <ul class="nav flex-column bg-white">
-                    <li class="nav-item">
-                        <div class="btn-group dropup">
-                            <button type="img" class="img border-0 bg-white" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <img src="https://miro.medium.com/fit/c/32/32/0*8auegPxo9CwNeu0J" class="avatar" alt=""
-                                    width="32" height="32">
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Medium Partner Program</a></li>
-                                <li><a class="dropdown-item" href="#">Gift a Membership</a></li>
-                                <li><a class="dropdown-item" href="#">Become a Member</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Sign out</a></li>
-                                <li><a class="dropdown-item" href="#">Refine Recommendations</a></li>
-                                <li><a class="dropdown-item" href="#">Manage Publications</a></li>
-                                <li><a class="dropdown-item" href="#">Stats</a></li>
-                                <li><a class="dropdown-item" href="#">Settings</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li class="d-flex">
-                                    <div>
-                                        <a class="dropdown-item" href="#"><img
-                                                src="https://miro.medium.com/fit/c/32/32/0*8auegPxo9CwNeu0J"
-                                                class="avatar" width="32" height="32"></a>
-                                    </div>
-                                    <div>
-                                        <span>gavema@mail.com</span>
-                                        <span>@gavema</span>
-                                    </div>
-                                </li>
+                    <ul class="nav flex-column bg-white">
+                        <li class="nav-item">
+                            <div class="btn-group dropup">
+                                <button type="img" class="img border-0 bg-white" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://miro.medium.com/fit/c/32/32/0*8auegPxo9CwNeu0J" class="avatar"
+                                        alt="" width="32" height="32">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Medium Partner Program</a></li>
+                                    <li><a class="dropdown-item" href="#">Gift a Membership</a></li>
+                                    <li><a class="dropdown-item" href="#">Become a Member</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                                    <li><a class="dropdown-item" href="#">Refine Recommendations</a></li>
+                                    <li><a class="dropdown-item" href="#">Manage Publications</a></li>
+                                    <li><a class="dropdown-item" href="#">Stats</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li class="d-flex">
+                                        <div>
+                                            <a class="dropdown-item" href="#"><img
+                                                    src="https://miro.medium.com/fit/c/32/32/0*8auegPxo9CwNeu0J"
+                                                    class="avatar" width="32" height="32"></a>
+                                        </div>
+                                        <div>
+                                            <span>gavema@mail.com</span>
+                                            <span>@gavema</span>
+                                        </div>
+                                    </li>
 
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
 
-                <!--termina Gaby-->
+                    <!--termina Gaby-->
                 </div>
                 <!--TERMINA MENU MOBILE INFERIOR-->
             </div>
